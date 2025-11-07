@@ -3,54 +3,117 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的網站首頁</title>
+  <title>11XXXXX</title>
   <style>
     body {
       margin: 0;
       font-family: "Microsoft JhengHei", Arial, sans-serif;
-      background: linear-gradient(135deg, #89f7fe, #66a6ff);
-      color: #333;
+      background: linear-gradient(135deg, #c3ecb2, #7dd3fc);
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
       text-align: center;
-      height: 100vh;
+      padding: 1.5em 0;
+      font-size: 1.8em;
+      letter-spacing: 2px;
+    }
+
+    main {
+      flex: 1;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
+      padding: 2em;
     }
+
     h1 {
       font-size: 3em;
+      color: #004080;
       margin-bottom: 0.3em;
     }
+
     p {
       font-size: 1.2em;
-      color: #222;
       max-width: 600px;
+      color: #333;
+      margin-bottom: 2em;
     }
-    a.button {
+
+    section.hw {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      width: 80%;
+      max-width: 700px;
+      padding: 2em;
       margin-top: 2em;
-      padding: 12px 24px;
-      background-color: #0056d6;
-      color: white;
+    }
+
+    section.hw h2 {
+      color: #0056b3;
+      border-bottom: 2px solid #0056b3;
+      display: inline-block;
+      padding-bottom: 0.3em;
+      margin-bottom: 1em;
+    }
+
+    section.hw ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    section.hw li {
+      margin: 0.8em 0;
+    }
+
+    section.hw a {
       text-decoration: none;
-      border-radius: 6px;
+      color: #0078ff;
       font-weight: bold;
-      transition: 0.3s;
+      transition: color 0.3s;
     }
-    a.button:hover {
-      background-color: #0041a8;
+
+    section.hw a:hover {
+      color: #004999;
     }
+
     footer {
-      position: absolute;
-      bottom: 10px;
+      text-align: center;
+      padding: 1em;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
       font-size: 0.9em;
-      color: #444;
     }
   </style>
 </head>
 <body>
-  <h1>歡迎來到我的網站 👋</h1>
-  <p>這是使用 GitHub Pages 建立的個人首頁。如果你看到這頁，代表部署成功！</p>
-  <a href="https://github.com/你的使用者名稱" target="_blank" class="button">前往我的 GitHub</a>
-  <footer>© 2025 我的網站</footer>
+  <header>Welcome to My Page</header>
+
+  <main>
+    <h1>1132954</h1>
+    <p>這是我的個人首頁，展示學號與未來的作業連結。請隨時回來查看最新更新！</p>
+
+    <section class="hw">
+      <h2>作業連結區 (HW08--)</h2>
+      <ul>
+        <li><a href="#">HW08 - 待更新</a></li>
+        <li><a href="#">HW09 - 待更新</a></li>
+        <li><a href="#">HW10 - 待更新</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 11XXXXX ｜ Designed for Web Programming Practice
+  </footer>
 </body>
 </html>
+
